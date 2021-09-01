@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "..\\html-css-website-course"
+	},
+	{
+		"path": "..\\DribbleInspiration"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "FinalWebsiteDesign"
+  }
+}

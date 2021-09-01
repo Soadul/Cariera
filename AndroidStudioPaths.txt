@@ -1,0 +1,9 @@
+Setup Type: Standard
+SDK Folder: C:\Users\soadu\AppData\Local\Android\Sdk
+JDK Location: C:\Program Files\Android\Android Studio\jre
+Total Download Size: 2.63 MB
+SDK Components to Download: 
+
+Intel x86 Emulator Accelerator (HAXM installer)
+  
+2.63 MB

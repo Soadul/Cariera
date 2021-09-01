@@ -1,0 +1,346 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+header.headerSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+}
+ul.navbarlist li {
+  display: inline-flex;
+  padding: 0px 20px;
+}
+ul.navbarlist li a {
+  text-decoration: none;
+  color: black;
+}
+ul.navbarlist li:last-child a {
+  border: 3px solid;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+ul.navbarlist li:last-child a:hover {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+/* Hero Section CSS Starts from here
+*/
+section.heroSection {
+  align-items: stretch;
+  background-image: url("background.jpg");
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 45px;
+  align-content: space-around;
+  justify-content: center;
+  background-position: fill;
+}
+h1 {
+  font-size: 55px;
+  line-height: 70px;
+}
+.buttons a {
+  text-decoration: none;
+  background-color: #303af7;
+  color: white;
+  padding: 12px 19px;
+  font-size: 18px;
+  justify-content: space-between;
+}
+/* CTA Section starts from here */
+.another-color {
+  color: #303af7;
+}
+section.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9fbfd;
+  margin-bottom: 80px;
+}
+.column-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 1200px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.leftCol {
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  line-height: 35px;
+  align-items: flex-start;
+}
+
+img.ctaImg {
+  height: 400px;
+  width: 700px;
+  margin-top: 6%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 7px 1px grey;
+}
+h1 {
+  font-size: 35px;
+  font-weight: 100;
+}
+.cta h1 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+h2.ctaTitle {
+  font-size: 33px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+p.ctaP {
+  margin: 30px 0px 45px;
+  line-height: 25px;
+  font-size: 22px;
+  font-weight: 100;
+  color: #5079ba;
+}
+a.ctaButton {
+  text-decoration: none;
+  background-color: #303af7;
+  color: white;
+  padding: 2px 26px;
+  border-radius: 5px;
+}
+.buttons a:hover {
+  margin-top: -50px;
+  transition: 2s;
+}
+/* Here Service Section is starting */
+section.serviceSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  min-height: 850px;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  line-height: 40px;
+  margin-top: 70px;
+}
+
+.serviceSectionCollumn {
+  display: flex;
+  padding: 43px 20px;
+  align-items: center;
+}
+
+ul.serviceSectionList {
+  margin: 100px auto;
+  list-style: none;
+  line-height: 42px;
+}
+.serviceImage {
+  margin-right: 120px;
+  box-shadow: 0px 0px 13px 1px lightgrey;
+  border-radius: 5px;
+}
+ul.serviceSectionList li a {
+  text-decoration: none;
+  color: #afb3bb;
+  line-height: 30px;
+  font-size: 19px;
+}
+section.serviceSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  min-height: 850px;
+  align-items: center;
+  flex-direction: column;
+  line-height: 40px;
+  margin-top: 70px;
+  margin-bottom: -180px;
+}
+h2.serviceSctionH2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 100;
+}
+/* Testimonial SEction Starts here */
+section.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: linear-gradient(to top right, #0bd1da, #2f3ef6);
+  padding: 70px 0 160px 0;
+}
+ul.testCol li {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  min-width: 100px;
+  margin-top: 30px;
+  color: #fff;
+}
+.testColumn {
+  font-size: 30px;
+}
+
+ul.testCol li i {
+  background-color: purple;
+  padding: 20px;
+}
+ul.testCol li i {
+  background-color: linear-gradient (#353ef6, #7873e2);
+  padding: 20px;
+  background-image: red;
+  border-radius: 5px;
+  background-image: linear-gradient(to top right, #353ef6, #6b69e6cc);
+}
+.testColumn {
+  font-size: 30px;
+  background-color: white;
+  padding-left: 0 auto;
+  padding: 0 auto;
+  box-shadow: -1px 6px 11px #d0cccc;
+  border-radius: 3px;
+  margin: 0 auto;
+  z-index: 1;
+  max-width: 1200px;
+}
+ul.testCol {
+  margin: 4px 330px;
+  padding: 0 auto;
+  transform: translateX(-45px);
+  display: flex;
+  justify-content: space-around;
+}
+
+.serCol {
+  max-width: 1200px;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin: -130px auto;
+  background-color: #fff;
+  padding: 79px 60px;
+  box-shadow: 2px 2px 9px 0px grey;
+  border-radius: 4px;
+}
+.icon {
+  width: 65px;
+  height: 65px;
+  background-image: linear-gradient(to bottom left, #3941f5, #736ee3);
+  color: white;
+  padding: 12px;
+  font-size: 35px;
+  border-radius: 6px;
+}
+.boxItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Functionality SEction starts from header */
+section.functionality {
+  display: flex;
+  margin: 0 auto;
+  padding: 270px;
+  justify-content: space-evenly;
+}
+.funcCol1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.funcCol1 p:first-child {
+  padding: 15px;
+  background-color: #f0f1fe;
+  color: #7443f8;
+  line-height: 18px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.funcCol1 h2 {
+  font-weight: 100;
+  font-size: 28px;
+  padding-bottom: 12px;
+}
+/* .funcCol1 p:last-child {
+  color: #7285a1;
+  line-height: 18px;
+  margin-bottom: 12px;
+} */
+
+p.funcP {
+  color: #7285a1;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+.funcButtons a:first-child {
+  background-color: #303af7;
+  padding: 12px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+}
+.funcButtons {
+  display: flex;
+  min-width: 370px;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.funcButtons a:last-child {
+  text-decoration: none;
+  padding: 12px;
+  background-color: #f0f1fe;
+  color: #303af7;
+}
+
+/* footer Part starting from here */
+footer {
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  margin-top: -145px;
+  align-items: center;
+}
+
+footer h1 {
+  color: white;
+  text-align: -webkit-center;
+  /* align-content: center; */
+  line-height: 40px;
+  padding: 100px 0px 40px 0px;
+  padding: 100px auto 40px auto;
+}
+.buttonIcon {
+  color: white;
+  display: flex;
+  min-width: 172px;
+  justify-content: space-around;
+  background-color: #303af7;
+  border-radius: 3px;
+  padding: 15px;
+}
+footer > p {
+  padding: 60px 0px 20px 0px;
+  color: white;
+  font-size: 18px;
+}
